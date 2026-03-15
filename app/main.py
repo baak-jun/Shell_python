@@ -10,9 +10,9 @@ def main():
             continue
         elif command=="exit":
             break
-        elif command.startswitch("echo "):
+        elif command.startswith("echo "):
             print(command[5:])
-        elif command.startswitch("type "):
+        elif command.startswith("type "):
             if command[5:] in builtin_commands:
                 print(f"{command[5:]} is a shell builtin")
             elif path := shutil.which(command[5:]):
