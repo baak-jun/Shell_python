@@ -3,7 +3,7 @@ import sys
 
 def main():
     while True:
-        print("$ ", end="")
+        print("$ ")
         command = input()
         
         print(f"{command}: command not found", end="")
