@@ -2,7 +2,7 @@ import sys
 
 
 def main():
-    input("$")
+    print("$")
     pass
 
 
