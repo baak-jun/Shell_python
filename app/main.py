@@ -3,10 +3,10 @@ import sys
 
 def main():
     while True:
-        print("$ ")
+        print("$ ",end = "")
         command = input()
         
-        print(f"{command}: command not found", end="")
+        print(f"{command}: command not found")
 
     pass
 
