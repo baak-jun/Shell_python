@@ -14,7 +14,7 @@ def main():
         
             
         
-        print(f"{command}: command not found")
+        print(f"{"".join(command)}: command not found")
 
     pass
 
