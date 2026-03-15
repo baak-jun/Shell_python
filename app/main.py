@@ -3,6 +3,8 @@ import sys
 
 def main():
     print("$ ",end = "")
+    command = input()
+    print(f"{command}: command not found",end = "")
     pass
 
 
